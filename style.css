@@ -1,0 +1,224 @@
+:root {
+    font-size: 18px;
+    scrollbar-color: #F2A900 #FBC412;
+    scrollbar-width: thin;
+    --bg-bright: #FBC412;
+    --bg-dark: #F2A900;
+    --icon-bright: rgb(66, 139, 72);
+    --icon-dark: rgb(51, 122, 57);
+    --transition-speed: 300ms;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: snow;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg-bright);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--bg-dark);
+}
+
+main {
+    z-index: 0;
+    margin-right: 5rem;
+    padding: 1.5rem;
+    position: relative;
+    top: 5rem;
+}
+
+.p-navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background-color: var(--bg-bright);
+    transition: width var(--transition-speed) ease;
+    overflow: auto;
+    z-index: 2;
+}
+
+.p-navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.p-nav-item {
+    width: 100%;
+}
+
+.p-nav-ext {
+    width: 100%;
+    background: var(--bg-dark);
+}
+
+.ext-link {
+    margin-left: 0.3rem;
+}
+
+.ext-link:hover {
+    filter: brightness(120%);
+}
+
+.ext-svg {
+    transform: rotate(0deg);
+    transition: transform var(--transition-speed);
+}
+
+.p-navbar:hover .ext-svg {
+    transform: rotate(-180deg);
+}
+
+.p-nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    justify-content: flex-end;
+    width: 100%;
+    text-decoration: none;
+    filter: brightness(80%) saturate(80%);
+    transition: var(--transition-speed);
+}
+
+.p-nav-link:hover {
+    text-decoration: none;
+    filter: brightness(100%) saturate(100%);
+    background: var(--bg-dark);
+}
+
+.p-nav-link:hover .p-nav-text .p-nav-link svg {
+    filter: brightness(110%) saturate(100%);
+}
+
+.p-nav-link svg {
+    min-width: 3rem;
+    max-width: 3rem;
+    margin: 0 1rem;
+}
+
+.p-nav-text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--icon-dark);
+    display: block;
+    font-size: 22px;
+    margin-right: 0.5rem;
+}
+
+.p-navbar:hover {
+    width: 14em;
+}
+
+.fa-primary {
+    color: var(--icon-dark);
+}
+
+.fa-secondary {
+    color: var(--icon-bright);
+}
+
+.fa-primary,
+.fa-secondary {
+    transition: var(--transition-speed);
+}
+
+.p-nav-item .ativo {
+    filter: brightness(100%) saturate(100%);
+    background: var(--bg-dark);
+}
+
+.ativo svg {
+    filter: brightness(110%);
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 98vw;
+    height: 5rem;
+    background: var(--bg-bright);
+}
+
+.banner {
+    padding: 0.5rem;
+    max-height: 5rem;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+.h-navbar {
+    position: relative;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.h-item {
+    display: inline;
+}
+
+.h-link {
+    padding: 12px 8px 12px 8px;
+    color: var(--icon-dark);
+}
+
+.h-link svg {
+    min-width: 1.5rem;
+    max-width: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+.h-link:hover {
+    text-decoration: none;
+    color: var(--bg-bright);
+    background-color: rgb(80, 168, 87);
+}
+
+.h-ativo {
+    color: var(--icon-dark);
+    background-color: var(--bg-bright);
+}
+
+.a-link{
+    height: 3rem;
+    display: inline;
+    color: var(--icon-bright);
+    justify-content: center;
+    padding: .7rem;
+}
+
+.a-link:hover{
+    text-decoration: none;
+    color: var(--bg-bright);
+    background-color: var(--icon-bright);
+}
+
+.a-link svg{
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}

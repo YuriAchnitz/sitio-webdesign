@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <title>Objetivos de Desenvolvimento Sustentável: 7</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="public/imagens/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="p-navbar" id="navbar">
+        <ul class="p-navbar-nav">
+            <li class="p-nav-ext">
+                <div class="p-nav-link">
+                    <a title="Ir para o site oficial dos ODS" href="https://odsbrasil.gov.br/" target="_blank"
+                        class="ext-link">
+                        <img src="public/imagens/ods.png" alt="" style="height: 3rem;">
+                    </a>
+
+                    <a title="Desenvolvedores" href="#autors" id="autorsbtn" class="ext-link"
+                        style="margin-right: -1rem;">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="pencil" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            class="svg-inline--fa fa-pencil fa-w-16 fa-3x">
+                            <g class="fa-group">
+                                <path fill="currentColor"
+                                    d="M96 352H32l-16 64 80 80 64-16v-64H96zM498 74.26l-.11-.11L437.77 14a48.09 48.09 0 0 0-67.9 0l-46.1 46.1a12 12 0 0 0 0 17l111 111a12 12 0 0 0 17 0l46.1-46.1a47.93 47.93 0 0 0 .13-67.74z"
+                                    class="fa-secondary"></path>
+                                <path fill="currentColor"
+                                    d="M.37 483.85a24 24 0 0 0 19.47 27.8 24.27 24.27 0 0 0 8.33 0l67.32-16.16-79-79zM412.3 210.78l-111-111a12.13 12.13 0 0 0-17.1 0L32 352h64v64h64v64l252.27-252.25a12 12 0 0 0 .03-16.97z"
+                                    class="fa-primary"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-angle-double-right fa-w-14 fa-3x ext-svg">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </div>
+            </li>
+
+            <li class="p-nav-item">
+                <a title="Introdução" href="#home" id="homebtn" class="p-nav-link ativo">
+                    <span class="p-nav-text">Introdução</span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="house-day" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                        class="svg-inline--fa fa-house-day fa-w-20 fa-3x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M176,136a40,40,0,1,0,40,40A40.07,40.07,0,0,0,176,136ZM288.27,48.75l-69,23L186.66,6.6a11.9,11.9,0,0,0-21.31,0L132.83,71.7l-69.09-23a11.88,11.88,0,0,0-15.06,15l23,69L6.6,165.34a11.91,11.91,0,0,0,0,21.32l65.11,32.51-23,69.1a11.89,11.89,0,0,0,15.06,15.06l69-23,.74,1.49a46.66,46.66,0,0,1,10.08-13.32l24.07-21.31C131.92,243,104,212.84,104,176a72,72,0,0,1,144,0v0l42.83-37.93-10.54-5.26,23-69A11.88,11.88,0,0,0,288.27,48.75Z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M635.23,292.42,576,240V144a16,16,0,0,0-16-16H528a16,16,0,0,0-16,16v39.29l-88.48-78.37a35.33,35.33,0,0,0-46.93,0l-211.8,187.5a14.18,14.18,0,0,0-1.23,20l18.79,21.28A14.2,14.2,0,0,0,202.4,335L224,315.87V480a32,32,0,0,0,32,32H544a32,32,0,0,0,32-32V315.85L597.62,335a14.28,14.28,0,0,0,20-1.25l18.79-21.28A14.25,14.25,0,0,0,635.23,292.42ZM448,368a16,16,0,0,1-16,16H368a16,16,0,0,1-16-16V304a16,16,0,0,1,16-16h64a16,16,0,0,1,16,16Z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+
+            <li class="p-nav-item">
+                <a title="Energia Eólica" href="#eolica" id="eolicabtn" class="p-nav-link">
+                    <span class="p-nav-text">Eólica</span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="wind-turbine" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 514 512"
+                        class="svg-inline--fa fa-wind-turbine fa-w-17 fa-3x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M350.1 480h-48.32l-5-76.66L221 314l-10.78 166H161.9a36.94 36.94 0 0 0-33 20.42A8 8 0 0 0 136 512h240a8 8 0 0 0 7.15-11.58A36.93 36.93 0 0 0 350.1 480z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M398.69 425.79l-88.35-182.32a55.77 55.77 0 0 1-.73-42.79l73.28-179.07a15.8 15.8 0 0 0-27.5-15.07L241.27 163.21a55.74 55.74 0 0 1-36.47 22.4L13.32 215.94A15.81 15.81 0 0 0 0 231.89v.23a15.8 15.8 0 0 0 14.1 15.35L203.84 268a55.77 55.77 0 0 1 37.53 20.58l130.31 153.5a15.81 15.81 0 0 0 20.53 3.63l.2-.12a15.8 15.8 0 0 0 6.28-19.8zM256 248a24 24 0 1 1 24-24 24 24 0 0 1-24 24z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+
+            <li class="p-nav-item">
+                <a title="Energia Nuclear" href="#nuclear" id="nuclearbtn" class="p-nav-link">
+                    <span class="p-nav-text">Nuclear</span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="radiation" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                        class="svg-inline--fa fa-radiation fa-w-16 fa-3x">
+                        <g class="fa-group">
+                            <path fill="currentColor" d="M296,255.82a48,48,0,1,1-48-48A48,48,0,0,1,296,255.82Z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M125.23,452c-4.8,7.7-2.4,18.1,5.6,22.4a246.73,246.73,0,0,0,234.36,0c8-4.3,10.4-14.8,5.6-22.4L290.41,323.52a78.67,78.67,0,0,1-84.78,0Zm-109-196.18H167.82c0-28.59,15.2-53.49,37.8-67.69L125.23,59.74c-4.8-7.7-15.3-10.2-22.7-4.8C44.44,96.94,5.14,163.33,0,239.12c-.6,9,7.1,16.7,16.2,16.7Zm312,0H479.79c9.1,0,16.79-7.7,16.2-16.8-5.1-75.79-44.4-142.18-102.49-184.18-7.4-5.3-17.9-2.9-22.7,4.8L290.41,188c22.6,14.3,37.79,39.2,37.79,67.79Z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+
+            <li class="p-nav-item">
+                <a title="Energia Hidrelétrica" href="#hidro" id="hidrobtn" class="p-nav-link">
+                    <span class="p-nav-text">Hidrelétrica</span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="water" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                        class="svg-inline--fa fa-water fa-w-18 fa-3x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M562.2 95.86c8.1.9 13.9 8.3 13.8 16.3v31.61c0 9.1-7.6 16.8-16.7 16A185 185 0 0 1 480.18 134c-55 34.11-135.52 34.61-192 0-55 34.11-135.52 34.61-192 0-23.31 14.5-50.61 23.4-79.42 25.9-9.1.8-16.7-6.9-16.7-16v-32.24c0-7.9 5.7-14.9 13.6-15.7 21.71-2.3 42.21-10.2 57.71-22.41 13.8-10.9 33.61-13.2 47.11-2 38.31 31.71 107.22 31.81 145.23 1.7 13.7-10.9 33.2-13 46.7-1.8 38.51 31.91 107.82 31.91 145.73 1.5a38.79 38.79 0 0 1 48.21 0c15.8 12.41 36.4 20.41 57.91 22.91z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M562.2 383.93c-21.51-2.4-42.11-10.5-57.91-22.91a38.79 38.79 0 0 0-48.21 0c-37.91 30.41-107.22 30.41-145.73-1.5-13.5-11.2-33-9.1-46.7 1.8-38 30.11-106.92 30-145.23-1.7-13.5-11.2-33.31-8.9-47.11 2-15.5 12.21-36 20.11-57.71 22.41-7.9.8-13.6 7.8-13.6 15.7v32.21c0 9.1 7.6 16.8 16.7 16 28.81-2.5 56.11-11.4 79.42-25.9 56.51 34.61 137 34.1 192 0 56.51 34.61 137 34.1 192 0a185 185 0 0 0 79.12 25.8c9.1.8 16.7-6.9 16.7-16v-31.61c.16-8-5.64-15.4-13.74-16.3zm0-144c-21.51-2.4-42.11-10.5-57.91-22.9a38.79 38.79 0 0 0-48.21 0c-37.91 30.41-107.22 30.41-145.73-1.5-13.5-11.21-33-9.1-46.7 1.8-38 30.11-106.92 30-145.23-1.7-13.5-11.21-33.31-8.9-47.11 2-15.5 12.2-36 20.1-57.71 22.4C5.7 240.79 0 247.8 0 255.7v32.2c0 9.11 7.6 16.81 16.7 16 28.81-2.5 56.11-11.4 79.42-25.91 56.51 34.61 137 34.11 192 0 56.51 34.61 137 34.11 192 0a184.83 184.83 0 0 0 79.12 25.81c9.1.8 16.7-6.9 16.7-16v-31.6c.16-8-5.64-15.41-13.74-16.31z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="public/imagens/logo.svg" alt="" class="banner">
+        <img src="public/imagens/title.png" alt="" class="banner">
+    </header>
+
+    <main id="main">
+        <div id="home" style="display: none; opacity: 0;">
+            <h1>Introdução</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse quam accusamus enim ducimus, ipsam
+                veritatis eaque reiciendis quia exercitationem consectetur minus laborum ullam, placeat deserunt quod
+                incidunt praesentium porro?</p>
+        </div>
+        <!--HOME-->
+
+        <div id="autors" style="display: none; opacity: 0;">
+            <h1>Desenvolvedores:</h1>
+            <hr>
+            <h3>Vinicius Ferreira Gomes</h3>
+            <h5>Sorocaba - SP</h5>
+            <p style="color: grey">Estudante de Engenharia de computação na UniFacens</p>
+            <p>
+                <a title="Veja meu LinkedIn!" href="https://www.linkedin.com/in/vinicius-ferreira-5118381b7"
+                    class="a-link" target="_blank">
+                    <span>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            class="svg-inline--fa fa-linkedin fa-w-14 fa-3x">
+                            <path fill="currentColor"
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                class=""></path>
+                        </svg>
+                    </span> LinkedIn</a>
+                <a title="Veja meu GitHub!" href="https://github.com/viniferr33" class="a-link" target="_blank">
+                    <span>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github-square" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            class="svg-inline--fa fa-github-square fa-w-14 fa-3x">
+                            <path fill="currentColor"
+                                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"
+                                class=""></path>
+                        </svg>
+                    </span>GitHub</a>
+            </p>
+            <br> <hr>
+            <h3>Yuri Achnitz</h3>
+            <h5>Sorocaba - SP</h5>
+            <p style="color: grey">Estudante de Engenharia de computação na UniFacens</p>
+            <p style="color: red">Procurando emprego</p>
+            <a title="Veja meu LinkedIn!" href="https://www.linkedin.com/in/yuri-achnitz-502014a0/" class="a-link"
+                target="_blank">
+                <span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-linkedin fa-w-14 fa-3x">
+                        <path fill="currentColor"
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                            class=""></path>
+                    </svg>
+                </span> LinkedIn</a>
+            <a title="Veja meu GitHub!" href="https://github.com/YuriAchnitz" class="a-link" target="_blank">
+                <span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github-square" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-github-square fa-w-14 fa-3x">
+                        <path fill="currentColor"
+                            d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"
+                            class=""></path>
+                    </svg>
+                </span>GitHub</a>
+        </div>
+        <!--AUTORES-->
+
+        <div id="eolica" style="display: none; opacity: 0;">
+            <h1>Eólica</h1>
+            <hr>
+
+            <ul class="h-navbar">
+                <li class="h-item">
+                    <a href="#about-e" id="aboutbtn-e" class="h-link h-ativo">Sobre
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="sun" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                class="svg-inline--fa fa-sun fa-w-16 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor" d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+
+                <li class="h-item">
+                    <a href="#points-e" id="pointsbtn-e" class="h-link">Prós e Contras
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="clouds-sun"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                class="svg-inline--fa fa-clouds-sun fa-w-20 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M314.45 53.1l-75.29 25.1-35.49-71a13 13 0 0 0-23.3 0l-35.49 71-75.29-25.1a13.06 13.06 0 0 0-16.5 16.5l25.1 75.3-71 35.5a13 13 0 0 0 0 23.3l71 35.5-25.1 75.3a13.06 13.06 0 0 0 16.5 16.5l42.69-14.2a124.47 124.47 0 0 1 20.1-13.6 141.91 141.91 0 0 1 10.5-29.1 94.9 94.9 0 0 1-18.7-150 96.18 96.18 0 0 1 135.78 0 93.93 93.93 0 0 1 24.1 42.4 110.08 110.08 0 0 1 20.59-18.6L331 69.5a13 13 0 0 0-16.55-16.4zM192.07 128a63.78 63.78 0 0 0-32.3 118.9A141.32 141.32 0 0 1 256 193.4c0-.5.1-.9.1-1.4a64.06 64.06 0 0 0-64.03-64z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M512 320h-1.6a80 80 0 0 0-78.4-64c-24.6 0-46.3 11.3-61 28.8-18.6-35.9-55.8-60.8-99-60.8-58.3 0-105.6 44.7-110.9 101.6C123.3 338.5 96 373.9 96 416a96 96 0 0 0 96 96h320a96 96 0 0 0 0-192zm48-160h-17.58a80 80 0 0 0-156.78 0H368a79.77 79.77 0 0 0-66.19 35.1 142.52 142.52 0 0 1 75.59 43.3 110.34 110.34 0 0 1 54.6-14.5 112.41 112.41 0 0 1 102.09 65.9 127.06 127.06 0 0 1 55 24.4A79.81 79.81 0 0 0 560 160z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+
+                <li class="h-item">
+                    <a href="#ext-e" id="extbtn-e" class="h-link">Links Externos
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="network-wired"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                class="svg-inline--fa fa-network-wired fa-w-20 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M624 232H344v-40h-48v40H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h104v40h48v-40h304v40h48v-40h104a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M224 192h192a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32H224a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32zm32-128h128v64H256zm320 256H416a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h160a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zm-32 128h-96v-64h96zM224 320H64a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h160a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zm-32 128H96v-64h96z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <div id="about-e" style="display: none; opacity: 0;">
+                <p>ABOUT</p>
+            </div>
+
+            <div id="points-e" style="display: none; opacity: 0;">
+                <p>PROS E CONTRAS</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+            </div>
+
+            <div id="ext-e" style="display: none; opacity: 0;">
+                <p>EXTERNO</p>
+            </div>
+
+        </div>
+        <!--EOLICA-->
+
+        <div id="nuclear" style="display: none; opacity: 0;">
+            <h1>Nuclear</h1>
+            <hr>
+
+            <ul class="h-navbar">
+                <li class="h-item">
+                    <a href="#about-n" id="aboutbtn-n" class="h-link h-ativo">Sobre
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="sun" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                class="svg-inline--fa fa-sun fa-w-16 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor" d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li class="h-item">
+                    <a href="#points-n" id="pointsbtn-n" class="h-link">Prós e Contras
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="clouds-sun"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                class="svg-inline--fa fa-clouds-sun fa-w-20 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M314.45 53.1l-75.29 25.1-35.49-71a13 13 0 0 0-23.3 0l-35.49 71-75.29-25.1a13.06 13.06 0 0 0-16.5 16.5l25.1 75.3-71 35.5a13 13 0 0 0 0 23.3l71 35.5-25.1 75.3a13.06 13.06 0 0 0 16.5 16.5l42.69-14.2a124.47 124.47 0 0 1 20.1-13.6 141.91 141.91 0 0 1 10.5-29.1 94.9 94.9 0 0 1-18.7-150 96.18 96.18 0 0 1 135.78 0 93.93 93.93 0 0 1 24.1 42.4 110.08 110.08 0 0 1 20.59-18.6L331 69.5a13 13 0 0 0-16.55-16.4zM192.07 128a63.78 63.78 0 0 0-32.3 118.9A141.32 141.32 0 0 1 256 193.4c0-.5.1-.9.1-1.4a64.06 64.06 0 0 0-64.03-64z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M512 320h-1.6a80 80 0 0 0-78.4-64c-24.6 0-46.3 11.3-61 28.8-18.6-35.9-55.8-60.8-99-60.8-58.3 0-105.6 44.7-110.9 101.6C123.3 338.5 96 373.9 96 416a96 96 0 0 0 96 96h320a96 96 0 0 0 0-192zm48-160h-17.58a80 80 0 0 0-156.78 0H368a79.77 79.77 0 0 0-66.19 35.1 142.52 142.52 0 0 1 75.59 43.3 110.34 110.34 0 0 1 54.6-14.5 112.41 112.41 0 0 1 102.09 65.9 127.06 127.06 0 0 1 55 24.4A79.81 79.81 0 0 0 560 160z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li class="h-item">
+                    <a href="#ext-n" id="extbtn-n" class="h-link">Links Externos
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="network-wired"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                class="svg-inline--fa fa-network-wired fa-w-20 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M624 232H344v-40h-48v40H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h104v40h48v-40h304v40h48v-40h104a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M224 192h192a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32H224a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32zm32-128h128v64H256zm320 256H416a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h160a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zm-32 128h-96v-64h96zM224 320H64a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h160a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zm-32 128H96v-64h96z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <div id="about-n" style="display: none; opacity: 0;">
+                <p>ABOUT</p>
+            </div>
+
+            <div id="points-n" style="display: none; opacity: 0;">
+                <p>PROS E CONTRAS</p>
+            </div>
+
+            <div id="ext-n" style="display: none; opacity: 0;">
+                <p>EXTERNO</p>
+            </div>
+
+        </div>
+        <!--NUCLEAR-->
+
+        <!--HIDRO-->
+        <div id="hidro" style="display: none; opacity: 0;">
+            <h1>Hidrelétrica</h1>
+            <hr>
+
+            <ul class="h-navbar">
+                <li class="h-item">
+                    <a href="#about-h" id="aboutbtn-h" class="h-link h-ativo">Sobre
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="sun" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                class="svg-inline--fa fa-sun fa-w-16 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor" d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li class="h-item">
+                    <a href="#points-h" id="pointsbtn-h" class="h-link">Prós e Contras
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="clouds-sun"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                class="svg-inline--fa fa-clouds-sun fa-w-20 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M314.45 53.1l-75.29 25.1-35.49-71a13 13 0 0 0-23.3 0l-35.49 71-75.29-25.1a13.06 13.06 0 0 0-16.5 16.5l25.1 75.3-71 35.5a13 13 0 0 0 0 23.3l71 35.5-25.1 75.3a13.06 13.06 0 0 0 16.5 16.5l42.69-14.2a124.47 124.47 0 0 1 20.1-13.6 141.91 141.91 0 0 1 10.5-29.1 94.9 94.9 0 0 1-18.7-150 96.18 96.18 0 0 1 135.78 0 93.93 93.93 0 0 1 24.1 42.4 110.08 110.08 0 0 1 20.59-18.6L331 69.5a13 13 0 0 0-16.55-16.4zM192.07 128a63.78 63.78 0 0 0-32.3 118.9A141.32 141.32 0 0 1 256 193.4c0-.5.1-.9.1-1.4a64.06 64.06 0 0 0-64.03-64z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M512 320h-1.6a80 80 0 0 0-78.4-64c-24.6 0-46.3 11.3-61 28.8-18.6-35.9-55.8-60.8-99-60.8-58.3 0-105.6 44.7-110.9 101.6C123.3 338.5 96 373.9 96 416a96 96 0 0 0 96 96h320a96 96 0 0 0 0-192zm48-160h-17.58a80 80 0 0 0-156.78 0H368a79.77 79.77 0 0 0-66.19 35.1 142.52 142.52 0 0 1 75.59 43.3 110.34 110.34 0 0 1 54.6-14.5 112.41 112.41 0 0 1 102.09 65.9 127.06 127.06 0 0 1 55 24.4A79.81 79.81 0 0 0 560 160z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+                <li class="h-item">
+                    <a href="#ext-h" id="extbtn-h" class="h-link">Links Externos
+                        <span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="network-wired"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                class="svg-inline--fa fa-network-wired fa-w-20 fa-3x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M624 232H344v-40h-48v40H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h104v40h48v-40h304v40h48v-40h104a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M224 192h192a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32H224a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32zm32-128h128v64H256zm320 256H416a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h160a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zm-32 128h-96v-64h96zM224 320H64a32 32 0 0 0-32 32v128a32 32 0 0 0 32 32h160a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zm-32 128H96v-64h96z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <div id="about-h" style="display: none; opacity: 0;">
+                <p class="justify">A Energia Hidráulica é produzida através do movimento das águas de rios ou até mesmo
+                    dos oceanos. Com ela, é possível gerar energia mecânica, posteriormente sendo transformada em
+                    elétrica, a mesma que chega na cidade e vai para nossa casa,
+                    equipamentos eletrônicos, entre outros. Tudo isso através da Usina Hidrelétrica, conhecidas pelas
+                    grandes barragens e por suas comportas, servindo para liberar a água caso há risco de
+                    transbordamento do reservatório ou rompimento da
+                    barragem.
+                </p>
+            </div>
+
+            <div id="points-h" style="display: none; opacity: 0;">
+                <p class="justify">Para produzir a energia hidráulica é necessário construir uma usina hidrelétrica, com
+                    ela utiliza-se uma fonte que é limpa e renovável, não produzindo o dióxido de carbono (CO2)
+                    prejudicando a saúde do ser humano e o meio ambiente. As
+                    vantagens dela são:
+                </p>
+                <ul>
+                    <li>Energia limpa e renovável</li>
+                    <li>Não emite dióxido de carbono</li>
+                    <li>Controla rios propensos a enchentes</li>
+                </ul>
+                <p class="justify">E as desvantagens dela são:</p>
+                <ul>
+                    <li>Desmatamento para construção</li>
+                    <li>Alto custo para construção</li>
+                    <li>Realocação da comunidade local</li>
+                </ul>
+            </div>
+
+            <div id="ext-h" style="display: none; opacity: 0;">
+                <h4>Como funciona uma usina hidrelétrica?</h4>
+                <iframe width="1071" height="793" src="https://www.youtube.com/embed/iYPMZamqSH4" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen style="height: 20rem; width: auto;"></iframe>
+            </div>
+        </div>
+        <!--HIDRO-->
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
