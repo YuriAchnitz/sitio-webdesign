@@ -199,7 +199,7 @@ header {
     background-color: var(--bg-bright);
 }
 
-.a-link{
+.a-link {
     height: 3rem;
     display: inline;
     color: var(--icon-bright);
@@ -207,13 +207,13 @@ header {
     padding: .7rem;
 }
 
-.a-link:hover{
+.a-link:hover {
     text-decoration: none;
     color: var(--bg-bright);
     background-color: var(--icon-bright);
 }
 
-.a-link svg{
+.a-link svg {
     max-width: 1.8rem;
     max-height: 1.8rem;
 }
