@@ -39,6 +39,17 @@ main {
     padding: 1.5rem;
     position: relative;
     top: 5rem;
+    font-size: 22px;
+}
+
+q{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quote{
+    text-align: center;
 }
 
 .p-navbar {
