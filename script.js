@@ -6,9 +6,10 @@ $(document).ready(function() {
     var content_e = ['#aboutbtn-e', '#pointsbtn-e', '#extbtn-e']
     var content_n = ['#aboutbtn-n', '#pointsbtn-n', '#extbtn-n']
     var content_h = ['#aboutbtn-h', '#pointsbtn-h', '#extbtn-h']
-    itemContent(content_e)
     itemContent(content_n)
     itemContent(content_h)
+    itemContent(content_e)
+
 
     $('#navbar').mouseover(function() {
         $('#main').css('margin-right', '13rem')
@@ -16,23 +17,6 @@ $(document).ready(function() {
 
     $('#navbar').mouseleave(function() {
         $('#main').css('margin-right', '5rem')
-    })
-
-    //Listener para a barra de navegação interna da aba Eólica
-    content_e.forEach(function(x) {
-        $(x).click(function() {
-            $(x).addClass('h-ativo')
-
-            var temp = Array.from(content_e)
-            delete temp[temp.indexOf(x)]
-            temp.forEach(function(x) {
-                if (x) {
-                    $(x).removeClass('h-ativo')
-                }
-            })
-            delete temp
-            itemContent(content_e)
-        })
     })
 
     //Listener para a barra de navegação interna da aba Nuclear
@@ -67,6 +51,23 @@ $(document).ready(function() {
             })
             delete temp
             itemContent(content_h)
+        })
+    })
+
+    //Listener para a barra de navegação interna da aba Eólica
+    content_e.forEach(function(x) {
+        $(x).click(function() {
+            $(x).addClass('h-ativo')
+
+            var temp = Array.from(content_e)
+            delete temp[temp.indexOf(x)]
+            temp.forEach(function(x) {
+                if (x) {
+                    $(x).removeClass('h-ativo')
+                }
+            })
+            delete temp
+            itemContent(content_e)
         })
     })
 
